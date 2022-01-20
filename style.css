@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap");
+
+* {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  box-sizing: border-box;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 2rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  color: #fff;
+}
+
+.card hr {
+  width: 100%;
+}
+
+.card img {
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.card h1 {
+  margin: 10px 0;
+}

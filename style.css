@@ -53,11 +53,28 @@ body {
 }
 
 .card:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   background-color: rgba(0, 0, 0, 0.45);
   color: #fff;
 }
 
 .card:hover > img {
   opacity: 1;
+}
+
+.card .social-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.card .social-container a {
+  text-decoration: none;
+  color: #ccc;
+  transition: all 0.5s ease-out;
+}
+
+.card .social-container a:hover {
+  color: #fff;
 }
